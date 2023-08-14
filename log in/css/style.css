@@ -1,0 +1,30 @@
+body {
+	background:url(../image/banner.jpg);
+	background-blend-mode: screen;
+}
+
+.color{
+    background-color: #ffd633;
+}
+
+.image1{
+    width: 100%;
+    clip-path: circle(60% at 50% 0%);
+}
+
+.sizee{
+	height: 2rem;
+	width: 2rem;
+}
+
+/* ************************************************* */
+
+.cascading-right {
+	margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+	.cascading-right {
+	margin-right: 0;
+	}
+}

@@ -1,0 +1,259 @@
+.color{
+    height: 500px;
+    background-color: #ffd633;
+}
+.image1{
+    height: 500px;
+    width: 100%;
+    clip-path: circle(60% at 50% 0%);
+}
+/******************** sidebar******************* */
+aside{
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+aside a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    left: -160px;
+    border: 2px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.icon{
+    padding-right: 2%;
+}
+
+aside a:first-of-type{
+    background-color: #1a75ff;
+    color: #fff;
+}
+
+aside a:nth-of-type(2){
+    background-color: #ff0000;
+    color: #fff;
+}
+aside a:Last-of-type{
+    background-color: #000;
+    color: #fff;
+}
+
+aside a:hover{
+    left: 0;
+}
+
+/***********************card**************************/
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -40px;
+}
+
+.image2{
+    position: relative;
+    border:2px solid yellow;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+
+.Animation{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    clip-path: circle(0 at 0 0);
+    background-color: #ff09;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Animation a {
+    text-decoration: none;
+}
+
+.box1:hover .Animation{
+    clip-path: circle(100% at 0 0);
+}
+
+.card{
+    margin: 10px;
+}
+
+/***********************************************/
+
+h1{
+    color: #5b4174;
+    text-align: center;
+    margin-top: -50px;
+}
+
+hr{
+    margin: auto;
+    width: 30%;
+}
+
+/**************************************************/
+
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+    width: -30%;
+    /* overflow : hidden; */
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+h2{
+    color: #5b4174;
+}
+
+p{
+    color: #5b4174;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-image{
+    width: 400px;
+    border:1px solid black;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.image-about{
+    position: relative;
+}
+
+.Animation-about{
+    width: 100%;
+    height: 250px;
+    clip-path: circle(0% at 50% 50%);
+    background-color: #fff9;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    position: absolute;
+    top: 0;
+}
+
+.image-about:hover .Animation-about{
+    clip-path: circle(100% at 50% 50%);
+}
+
+/********************Table***************************/
+
+h3{
+    color: #5b4174;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+hr{
+    margin: auto;
+}
+
+table{
+    width: 80%;
+    height: 200px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+tr:nth-of-type(even){
+    background-color: #cac1c1;
+}
+
+/*****************************************/
+
+h4{
+    color: #5b4174;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+hr{
+    margin: auto;
+}
+
+/***********************************************/
+
+footer{
+    width: 85%;
+    height: 320px;
+    background: rgb(255, 230, 2);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media{
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.mapss{
+    width: 85%;
+    right: -70px;
+}
+
+.Footter{
+    height:  50px;
+    background: #333;
+    overflow: hidden;
+}
+.Footter p{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+}
